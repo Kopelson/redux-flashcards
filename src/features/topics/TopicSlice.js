@@ -12,3 +12,5 @@ export const topicsSlice = createSlice({
         })}
     }
 })
+
+export const selectTopics = (state) => state.topics;
